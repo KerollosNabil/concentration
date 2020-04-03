@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C114A1A52410024C0014266E /* consentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C114A1A42410024C0014266E /* consentration.swift */; };
+		C114A1A7241003040014266E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C114A1A6241003040014266E /* Card.swift */; };
+		C1DBF65824352D03009D82D9 /* ConsentrationThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DBF65724352D03009D82D9 /* ConsentrationThemeChooserViewController.swift */; };
 		C1F8E6C3240FC7BD00D531DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8E6C2240FC7BD00D531DB /* AppDelegate.swift */; };
-		C1F8E6C5240FC7BD00D531DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8E6C4240FC7BD00D531DB /* ViewController.swift */; };
+		C1F8E6C5240FC7BD00D531DB /* ConsentrationViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8E6C4240FC7BD00D531DB /* ConsentrationViewControler.swift */; };
 		C1F8E6C8240FC7BD00D531DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F8E6C6240FC7BD00D531DB /* Main.storyboard */; };
 		C1F8E6CA240FC7BD00D531DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F8E6C9240FC7BD00D531DB /* Assets.xcassets */; };
 		C1F8E6CD240FC7BD00D531DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F8E6CB240FC7BD00D531DB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C114A1A42410024C0014266E /* consentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consentration.swift; sourceTree = "<group>"; };
+		C114A1A6241003040014266E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C1DBF65724352D03009D82D9 /* ConsentrationThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentrationThemeChooserViewController.swift; sourceTree = "<group>"; };
 		C1F8E6BF240FC7BD00D531DB /* consentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = consentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F8E6C2240FC7BD00D531DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1F8E6C4240FC7BD00D531DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1F8E6C4240FC7BD00D531DB /* ConsentrationViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentrationViewControler.swift; sourceTree = "<group>"; };
 		C1F8E6C7240FC7BD00D531DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1F8E6C9240FC7BD00D531DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1F8E6CC240FC7BD00D531DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				C1F8E6C2240FC7BD00D531DB /* AppDelegate.swift */,
-				C1F8E6C4240FC7BD00D531DB /* ViewController.swift */,
+				C1F8E6C4240FC7BD00D531DB /* ConsentrationViewControler.swift */,
 				C1F8E6C6240FC7BD00D531DB /* Main.storyboard */,
+				C1DBF65724352D03009D82D9 /* ConsentrationThemeChooserViewController.swift */,
+				C114A1A42410024C0014266E /* consentration.swift */,
+				C114A1A6241003040014266E /* Card.swift */,
 				C1F8E6C9240FC7BD00D531DB /* Assets.xcassets */,
 				C1F8E6CB240FC7BD00D531DB /* LaunchScreen.storyboard */,
 				C1F8E6CE240FC7BD00D531DB /* Info.plist */,
@@ -91,11 +100,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "kerollos nabil";
 				TargetAttributes = {
 					C1F8E6BE240FC7BC00D531DB = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1130;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F8E6C5240FC7BD00D531DB /* ViewController.swift in Sources */,
+				C1F8E6C5240FC7BD00D531DB /* ConsentrationViewControler.swift in Sources */,
 				C1F8E6C3240FC7BD00D531DB /* AppDelegate.swift in Sources */,
+				C1DBF65824352D03009D82D9 /* ConsentrationThemeChooserViewController.swift in Sources */,
+				C114A1A52410024C0014266E /* consentration.swift in Sources */,
+				C114A1A7241003040014266E /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +190,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +198,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +249,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +257,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -279,7 +296,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iti.consentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -293,7 +310,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iti.consentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
