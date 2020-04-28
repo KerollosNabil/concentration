@@ -47,8 +47,10 @@ class ConsentrationViewControler: UIViewController {
     }
     
     @IBAction private func buttonClik(_ sender: UIButton) {
-        flipCounter += 1
+        
+        didChaged = true
         if let cardNumber = puttons.firstIndex(of: sender){
+            if !game.cards[cardNumber].IsMatched {flipCounter += 1}
             game.selectCard(at: cardNumber)
             updateView(to: CGSize(width: 1, height: 1))
         }
@@ -85,6 +87,7 @@ class ConsentrationViewControler: UIViewController {
                 if card.isFliped{
                     button.setTitle(card.emoji, for: UIControl.State.normal)
                     button.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
+                    button.backgroundColor = card.IsMatched ? #colorLiteral(red: 1, green: 0.5763723254, blue: 0, alpha: 0) :  #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
                     
                 }else{
                     button.setTitle("F", for: UIControl.State.normal)

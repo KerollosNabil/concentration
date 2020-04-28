@@ -25,6 +25,7 @@ class ConsentrationThemeChooserViewController: UIViewController, UISplitViewCont
     }
     override func awakeFromNib() {
         splitViewController?.delegate = self
+        splitViewController?.preferredDisplayMode = .allVisible
     }
     func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController: UIViewController, onto primaryViewController: UIViewController) -> Bool {
         if (secondaryViewController as? ConsentrationViewControler)?.didChaged == false {
